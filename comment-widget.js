@@ -17,14 +17,14 @@
 */
 
 // The values in this section are REQUIRED for the widget to work! Keep them in quotes!
-const s_stylePath = 'PATH HERE';
-const s_formId = 'ID HERE';
-const s_nameId = 'ID HERE';
-const s_websiteId = 'ID HERE';
-const s_textId = 'ID HERE';
-const s_pageId = 'ID HERE';
-const s_replyId = 'ID HERE';
-const s_sheetId = 'ID HERE';
+const s_stylePath = 'https://raw.githubusercontent.com/happysugarmix/webflow/main/comment-widget-pink.css';
+const s_formId = 'comment-form';
+const s_nameId = 'comment-name';
+const s_websiteId = 'comment-website';
+const s_textId = 'comment-text';
+const s_pageId = 'comment-page';
+const s_replyId = 'comment-reply';
+const s_sheetId = 'your-sheet-id';
 
 // The values below are necessary for accurate timestamps, I've filled it in with EST as an example
 const s_timezone = -5; // Your personal timezone (Example: UTC-5:00 is -5 here, UTC+10:30 would be 10.5)
