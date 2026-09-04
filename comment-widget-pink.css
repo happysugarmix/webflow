@@ -1,85 +1,10 @@
-
-
-
-#HCB_comment_box textarea {
-  
-}
-
-/* the entire html comment box container. applies to everything */
-#HCB_comment_box {}
-
-#HCB_comment_box p.error {
-  border: 4px solid #ffb3e6;
-  background-color: #fee;
-  color: #800;
-}
-
-#HCB_comment_box textarea, #HCB_comment_box input.text {
-  border: 1px solid #ffb3e6;
-  border-left: 1px solid #ffb3e6;
-  border-top: 1px solid #ffb3e6;
-  background: url(bg.png) repeat-x;
-}
-
-#HCB_comment_box .hcb-wrapper-half {
-  display:block;
-  width:50%;
-  float:left;
-}
-#HCB_comment_box .hcb-wrapper {
-  clear:both;
-  margin-bottom:0.5em;
-}
-#HCB_comment_box input.text {
-  display:block;
-  width:97%;
-  
-}
-/* the submit button */
-#HCB_comment_box input.submit {
-    margin:0 7px 3px 0;
-    background-color:#ffb3e6;
-    border:1px solid #ffb3e6;
-    border-top:1px solid #ffb3e6;
-    border-left:1px solid #ffb3e6;
-    font-family: Henny Penny, system-ui;
-    font-size:100%;
-    line-height:130%;
-    text-decoration:none;
-    font-weight:bold;
-    color:#565656;
-    cursor:pointer;
-    width:auto;
-    overflow:visible;
-    padding:4px 10px 3px 7px; /* IE6 */
-}
-#HCB_comment_box input.submit:hover{
-    background-color:#dff4ff;
-    border:1px solid #c2e1ef;
-    color:#336699;
-}
-
-#HCB_comment_box span.home-desc {
-  opacity:0.4;
-}
-
-/* the individual comment display containers */
-#HCB_comment_box div.comment {
-  border-top:1px solid #eee;
-  margin-bottom:0.5em;
-}
-
-/* the moderator message */
-.hcb-mod  b{
-  color:darkblue;
-}
-
-/* next, prev, ok and x link style */
-.hcb-link {
-  color:#ffb3e6;
-  text-decoration:underline;
-}
-
-.hcb-icon {
-  display:none;
-}
+#HCB_comment_box{border: 2px solid #FFFFFF; border-radius: 5px; padding: 10px; color:#FFFFFF; background: rgba(0, 0, 0, 0.5);}
+.hcb-mod b{color:#0088AF;}
+#HCB_comment_box textarea,#HCB_comment_box input.text{border-top:1px solid #e4e4e4;border-left:1px solid #e4e4e4;border-bottom:1px solid #eaeaea;border-right:1px solid #eaeaea;background-color:#f8f8f8;}
+#HCB_comment_box .hcb-wrapper-half{display:block;width:50%;float:left;}
+#HCB_comment_box .hcb-wrapper{clear:both;}
+#HCB_comment_box input.text{display:block;width:95%;}
+#HCB_comment_box input.submit{border-top:1px solid #FCB1A2;border-left:1px solid #FCB1A2;border-bottom:1px solid #BB2B0F;border-right:1px solid #BB2B0F;background-color:#F26646;color:#000;font-weight:bold;cursor:pointer;}
+#HCB_comment_box div.comment{color:#FDB3A5; background: rgba(0, 0, 0, 0.5); border:3px double #F26646 ; margin:5px; padding:2px;}
+#HCB_comment_box .comment .likes{color: #00FF00;}
+#HCB_comment_box .hcb-link{color:#0088AF;text-decoration:none;} 
